@@ -1,8 +1,11 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 products:
   amalgomate-plugin:
     build:
       main-pkg: .
-      version-var: github.com/palantir/godel-amalgomate-plugin/cmd.Version
+      version-var: github.com/sniperkit/snk.fork.palantir-godel-amalgomate-plugin/cmd.Version
       environment:
         CGO_ENABLED: "0"
       os-archs:

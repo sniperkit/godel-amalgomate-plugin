@@ -1,5 +1,8 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 working_dir: &working_dir
-  working_directory: /go/src/github.com/palantir/godel-amalgomate-plugin
+  working_directory: /go/src/github.com/sniperkit/snk.fork.palantir-godel-amalgomate-plugin
 
 darwin-linux-no-cgo: &darwin-linux-no-cgo
   <<: *working_dir
